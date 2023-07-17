@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="https://mohdwaqas20.github.io/Techno_Hacks/Calculator/logo.png" type="image/x-icon">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="https://mohdwaqas20.github.io/Techno_Hacks/Calculator/style.css">
+</head>
+<body>
+    
+  <div class="calculator">
+    <div class="screen" id="screen">0</div>
+    <div class="buttons">
+      <button class="clear" onclick="clearScreen()">C</button>
+      <button onclick="appendToScreen('0')">0</button>
+      <button onclick="appendToScreen('.')">.</button>
+      <button class="operator" onclick="appendToScreen('/')">/</button>
+      <button onclick="appendToScreen('9')">7</button>
+      <button onclick="appendToScreen('8')">8</button>
+      <button onclick="appendToScreen('9')">9</button>
+      <button class="operator" onclick="appendToScreen('*')">*</button>
+      <button onclick="appendToScreen('4')">4</button>
+      <button onclick="appendToScreen('5')">5</button>
+      <button onclick="appendToScreen('6')">6</button>
+      <button class="operator" onclick="appendToScreen('-')">-</button>
+      <button onclick="appendToScreen('1')">1</button>
+      <button onclick="appendToScreen('2')">2</button>
+      <button onclick="appendToScreen('3')">3</button>
+      <button class="operator" onclick="appendToScreen('+')">+</button>
+      <button class="equal" onclick="calculate()">=</button>
+    </div>
+  </div>
+  <script src="https://mohdwaqas20.github.io/Techno_Hacks/Calculator/script.js"></script>
+</body>
+</html>
